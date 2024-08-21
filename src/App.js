@@ -12,10 +12,10 @@ const App = () => {
   ];
 
   return (
-    <div>
+    <>
       <h1>Mi Tienda</h1>
       <Product products={PRODUCTS} />
-    </div>
+    </>
   );
 };
 
